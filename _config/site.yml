@@ -11,5 +11,7 @@ profiles:
     deploy:
       dummy:
   production:
-    base_url: http://ostiumlab.ru
     minify: true
+    base_url: http://ostiumlab.github.com/github_pages
+    deploy:
+      host: github_pages
